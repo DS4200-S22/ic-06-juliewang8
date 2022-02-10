@@ -1,0 +1,16 @@
+body {
+  font-family: Arial;
+}
+
+.buttonCircle {
+  display: flex;
+  flex-direction: row;
+}
+
+.svg {
+  padding: 10px;
+}
+
+circle {
+  fill: blue;
+}

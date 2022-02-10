@@ -11,4 +11,12 @@ Modified: 12/06/21
     // You will need to modiffy the body of this function as described in the assignment Readme
 function button1Clicked() {
     console.log("Button 1 was clicked"); 
+    let randomNumberDiv = document.getElementById("random_num");
+    randomNumberDiv.innerHTML = Math.random() * 100;
+}
+
+function button2Clicked() {
+    console.log("Button 2 was clicked"); 
+    let circle = document.getElementById("circle");
+    circle.setAttribute("fill", "green");
 }
